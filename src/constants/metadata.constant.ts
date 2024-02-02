@@ -1,0 +1,13 @@
+export const METADATA_TYPE = {
+  CLIP: 1,
+  SINGLE_MOVIE: 2,
+  SERIES_MOVIE: 3,
+  EPISODE_MOVIE: 4,
+};
+
+export const METADATA_STATE = {
+  PENDING_APROVE: 2,
+  PUBLISH: 3,
+  TAKE_DOWN: 4,
+  EXPIRED: 5,
+};
